@@ -1,5 +1,6 @@
 [versions]
 compose = "1.2.0-beta03"
+accompanist = "0.24.10-beta"
 app-code = "1"
 app-name = "1.0"
 sdk-min = "24"
@@ -13,6 +14,9 @@ androidx-activity-compose = "androidx.activity:activity-compose:1.4.0"
 compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
 compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
 compose-material3 = "androidx.compose.material3:material3:1.0.0-alpha13"
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist" }
+accompanist-pager-indicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanist" }
+coil-compose = "io.coil-kt:coil-compose:2.1.0"
 
 [plugins]
 android = "com.android.application:7.4.0-alpha02"
