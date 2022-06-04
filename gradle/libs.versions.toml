@@ -1,0 +1,23 @@
+[versions]
+app-code = "1"
+app-name = "1.0"
+
+sdk-min = "24"
+sdk-compile = "32"
+sdk-target = "32"
+
+compose = "1.2.0-beta03"
+
+[libraries]
+androidx-core-ktx = "androidx.core:core-ktx:1.8.0"
+androidx-lifecycle-runtime-ktx = "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1"
+androidx-activity-compose = "androidx.activity:activity-compose:1.4.0"
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+compose-material3 = "androidx.compose.material3:material3:1.0.0-alpha13"
+
+[plugins]
+android = "com.android.application:7.4.0-alpha02"
+kotlin = "org.jetbrains.kotlin.android:1.6.21"
+versions = "com.github.ben-manes.versions:0.42.0"
+version-catalog-update = "nl.littlerobots.version-catalog-update:0.4.0"
