@@ -5,14 +5,14 @@ plugins {
 
 android {
   namespace = "dev.egorand.composeplayground"
-  compileSdk = libs.versions.sdk.compile.get().toInt()
+  compileSdk = 32
 
   defaultConfig {
     applicationId = "dev.egorand.composeplayground"
-    minSdk = libs.versions.sdk.min.get().toInt()
-    targetSdk = libs.versions.sdk.target.get().toInt()
-    versionCode = libs.versions.app.code.get().toInt()
-    versionName = libs.versions.app.name.get()
+    minSdk = 24
+    targetSdk = 32
+    versionCode = 1
+    versionName = "1.0"
 
     vectorDrawables {
       useSupportLibrary = true

@@ -10,9 +10,6 @@ plugins {
 
 versionCatalogUpdate {
   sortByKey.set(false)
-  keep {
-    keepUnusedVersions.set(true)
-  }
 }
 
 tasks.withType<DependencyUpdatesTask> {
