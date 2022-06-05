@@ -53,5 +53,6 @@ dependencies {
   implementation(libs.compose.ui.tooling.preview)
   implementation(libs.accompanist.pager)
   implementation(libs.accompanist.pager.indicators)
+  implementation(libs.accompanist.systemuicontroller)
   implementation(libs.coil.compose)
 }
