@@ -51,7 +51,6 @@ dependencies {
   implementation(libs.androidx.activity.compose)
   implementation(libs.compose.ui)
   implementation(libs.compose.ui.tooling.preview)
-  implementation(libs.compose.material3)
   implementation(libs.accompanist.pager)
   implementation(libs.accompanist.pager.indicators)
   implementation(libs.coil.compose)

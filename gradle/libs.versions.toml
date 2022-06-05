@@ -13,7 +13,6 @@ androidx-lifecycle-runtime-ktx = "androidx.lifecycle:lifecycle-runtime-ktx:2.4.1
 androidx-activity-compose = "androidx.activity:activity-compose:1.4.0"
 compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
 compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
-compose-material3 = "androidx.compose.material3:material3:1.0.0-alpha13"
 accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanist" }
 accompanist-pager-indicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanist" }
 coil-compose = "io.coil-kt:coil-compose:2.1.0"
